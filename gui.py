@@ -12,16 +12,16 @@ def on_transcribe_button_click():
         result_textbox.insert("0.0", "Baixando áudio...")
         app.update()
 
-        arquivo_audio = download_audio(url)
+        arquivo_audio, titulo = download_audio(url)
 
         result_textbox.delete("0.0", "end")
         result_textbox.insert("0.0", "Convertendo e transcrevendo áudio, aguarde...")
         app.update()
 
-        texto = transcribe_audio(arquivo_audio)
+        texto = transcribe_audio(arquivo_audio, titulo)
 
         result_textbox.delete("0.0", "end")
-        result_textbox.insert("0.0", texto)
+        result_textbox.insert("0.0", texto + "\n\n✅ Transcrição salva na pasta 'transcricoes'")
     except Exception as e:
         result_textbox.delete("0.0", "end")
         result_textbox.insert("0.0", f"Erro: {e}")
