@@ -21,8 +21,6 @@
 
 <div align="center" style="background-color:#0d1117;padding:10px;border-radius:8px;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ffmpeg/ffmpeg-original.svg" height="40" alt="FFmpeg"/>
-  <img src="https://github.com/TomSchimansky/CustomTkinter/raw/main/docs/source/_static/customtkinter-logo.png" height="40" alt="CustomTkinter"/>
 </div>
 
 ---
@@ -85,3 +83,4 @@ Transcrição salva em transcricoes/
 Projeto sob licença MIT. Use, modifique e compartilhe livremente.
 
 Desenvolvido por June com ❤️
+
